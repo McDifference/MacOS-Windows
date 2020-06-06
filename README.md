@@ -1,7 +1,8 @@
 # MacOS-Windows
 
-BootCamp
-
-Paralles
-Paralles Tools
-Apple监控
+BootCamp  
+touchpad driver  
+Paralles  
+切换系统  
+Paralles Tools  
+Apple监控  
