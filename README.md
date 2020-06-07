@@ -7,7 +7,7 @@
 从BootCamp启动Win需要关闭MacOS，重启电脑。另外MacBook的TrackPad在Win系统下的驱动不完善，使用体验较差。  
 从Parallels启动Win是直接在MacOS中虚拟的，可以随时在两个系统切换，利用Parallels Tools共享复制粘贴，文本和文件都能够在两个系统中来回传递。但毕竟相当于开着两个系统，电脑的发热量会明显提升。  
 
-# BootCamp安装Win10  
+## BootCamp安装Win10  
 原本自己下载了Win10_1909的镜像，但是BootCamp说无法打开，于是只能从BootCamp的帮助里面，通过其提供的链接到下载最新版本的镜像Win10_2004。  
 安装好Win系统后，安装Windows下的BootCamp，一般会在系统安装好后自动弹出安装提示。  
 如果没有，可以在文件资源管理器中找到"OSXRESERVED"分区，打开"BootCamp"文件夹中的"Setup"安装BootCamp。  
@@ -17,13 +17,13 @@
 这个驱动几乎完美支持所有手势，手势的效果也跟MacOS上面的一样。可惜的是不知道怎么调节箭头移动的速度，太慢了。  
 另外，即便使用了第三方驱动，箭头还是会有粘滞感，反应不够迅速，容易引起误操作。  
 
-# 切换系统  
+## 切换系统  
 此时默认的启动系统是Windows，通过桌面右下角的BootCamp图标可以选择默认从MacOS启动。  
 在MacOS中也可以点击左上角苹果图标，在"系统偏好设置"里面点按"启动磁盘"来更改默认启动系统。(不过我的只有MacOS是可选的，不知道为什么)    
 另外，也可以重启电脑时按住option键直到出现选项给你选择进入哪个系统。  
 建议先在Windows中安装好必要的软件后，再重启到MacOS安装Parallels。  
 
-# Parallels虚拟Win10  
+## Parallels虚拟Win10  
 重启到MacOS，安装Parallels Desktop 15.1.2，选择从BootCamp中读取。  
 安装完后，如果发现两个系统的复制粘贴没有共享，很可能是Paralles Tools没有自动安装。  
 Parallels启动Windows后，窗口的右上角有个黄色感叹号，提示安装Parallels Tools，按提示安装就行。  
@@ -32,5 +32,8 @@ Parallels启动Windows后，窗口的右上角有个黄色感叹号，提示安�
 如果觉得Parallels发热很严重，可以尝试更改虚拟机监控程序。  
 关闭Windows后，在Parallels的"配置"中"CPU与内存"里面，"虚拟机监控程序"从默认的"Parallels"改为"Apple"。 
 
-# 激活问题
-你会发现，从
+## 激活问题
+你会发现，在BootCamp中激活了Windows和Office后，在Parallels里面依然是没有激活的。  
+重新在Parallels中激活Windows和Office，但是下次如果从BootCamp启动Windows，又会发现没有激活。  
+随着BootCamp和Parallels其中一方的激活，另一方的激活必然失效。  
+因此，平时习惯用哪种方式使用Windows，就在哪种方式下激活就好。  
