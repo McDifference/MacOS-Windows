@@ -5,9 +5,9 @@
 采用的方案是先用BootCamp安装Win10，再使用Parallels Desktop从BootCamp分区虚拟。  
 这样的好处是只需要安装一份Windows，就可以通过两种方式使用Win。  
 从BootCamp启动Win需要关闭MacOS，重启电脑。另外MacBook的TrackPad在Win系统下的驱动不完善，使用体验较差。  
-从Parallels启动Win是直接在MacOS中虚拟的，可以随时在两个系统是切换，利用Parallels Tools共享复制粘贴，文本和文件都能够在两个系统中来回传递。但毕竟相当于开着两个系统，电脑的发热量会明显提升。  
+从Parallels启动Win是直接在MacOS中虚拟的，可以随时在两个系统切换，利用Parallels Tools共享复制粘贴，文本和文件都能够在两个系统中来回传递。但毕竟相当于开着两个系统，电脑的发热量会明显提升。  
 
-使用MacOS自带的BootCamp来安装Windows。
+使用MacOS自带的BootCamp来安装Windows。  
 原本自己下载了Win10_1909的镜像，但是BootCamp说无法打开，于是只能从BootCamp的帮助里面，通过其提供的链接到下载最新版本的镜像Win10_2004。  
 安装好Win系统后，安装Windows下的BootCamp，一般会在系统安装好后自动弹出安装提示。  
 如果没有，可以在文件资源管理器中找到"OSXRESERVED"分区，打开"BootCamp"文件夹中的"Setup"安装BootCamp。  
